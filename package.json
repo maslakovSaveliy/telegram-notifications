@@ -1,0 +1,24 @@
+{
+  "name": "telegram-notifications",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon ./src/main.js",
+    "start": "cross-env NODE_ENV=production node ./src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "axios": "^1.6.8",
+    "config": "^3.3.11",
+    "cross-env": "^7.0.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "nodemon": "^3.1.0",
+    "openai": "^4.0.0",
+    "telegraf": "^4.16.3"
+  }
+}
